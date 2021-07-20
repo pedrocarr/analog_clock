@@ -14,5 +14,12 @@ function updateClock(){
 
 }
 
+function fixZero(time){
+  if (time < 10) {
+    return '0'+time;
+  } else {
+    return time;
+  }
+}
 
 setInterval(updateClock, 1000);
