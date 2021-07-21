@@ -12,6 +12,7 @@ function updateClock(){
 
   digitalElement.innerHTML = `${fixZero(hour)}:${fixZero(minute)}:${fixZero(second)}`;
 
+  
 }
 
 function fixZero(time){
